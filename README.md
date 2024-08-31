@@ -23,16 +23,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1 Create a Windows 10 Virtual Machine (VM) with 2 Virtual CPUs and allow it to create a new Virtual Network (Vnet)
+- Step 2 Create a Ubuntu Server Virtual Machine (VM) with 2 Virtual CPUs and have it use the Virtual Network from the Windows 10 Virtual Machine (VM) 
+- Step 3 Remote into Windows 10 Virtual Machine, install wireshark, and observer various traffic while performing commands with Windows Powershell
+- Step 4 Set a perpetual ping with Windows Powershell for the Ubuntu Server, then block icmp v4 with Microsoft Azure Network Security Group and observe traffic changes 
 
 <h2>Actions and Observations</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/user-attachments/assets/198a231c-66ca-49b5-a303-7fa525feaf8a)
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
