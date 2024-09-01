@@ -33,14 +33,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 ![image](https://github.com/user-attachments/assets/198a231c-66ca-49b5-a303-7fa525feaf8a)
 
 <p>
-Creating VM1 Windows 10 in Microsoft Azure
+Create VM1 Windows 10 in Microsoft Azure
 </p>
 <br />
 
 ![vm2](https://github.com/user-attachments/assets/2d32d0c3-21be-4ad8-a26d-68bc2e016fc0)
 
 <p>
-Creating VM2 Ubuntu Server in Microsoft Azure
+Create VM2 Ubuntu Server in Microsoft Azure
 </p>
 <br />
 
@@ -48,13 +48,13 @@ Creating VM2 Ubuntu Server in Microsoft Azure
 
 
 <p>
-Using wireshark to monitor traffic.
+Use wireshark to monitor traffic.
 </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/ff6dadc6-2376-4ce5-ab4e-c91d66380c32)
 
 <p>
-Blocking inbound traffic for ICMP v4 and viewing traffic change with Powershell. 
+Block inbound traffic for ICMP v4 and view traffic change with Powershell. 
 </p>
 <br />
