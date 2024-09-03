@@ -90,6 +90,22 @@ Open start menu and type Windows Power Shell-> Click run as Administrator-> Type
 <br />
 <br />
 
+![10](https://github.com/user-attachments/assets/0aea474e-1954-4965-a641-a4063287eefa)
+
+In Microsoft Azure click on vm2-> copy Private IP address
+
+<br />
+<br />
+
+
+![11](https://github.com/user-attachments/assets/8ffd965a-f4ac-4754-82f7-ecff99b4004b)
+
+In Virtual Machine (vm1) type icmp for filter in Wireshark-> Set perpetual ping by typing ping the private IP Address -t in Windows Powershell
+
+<br />
+<br />
+
+
 ![image](https://github.com/user-attachments/assets/ff6dadc6-2376-4ce5-ab4e-c91d66380c32)
 
 <p>
