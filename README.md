@@ -56,13 +56,38 @@ Click create new under Resource Group Name Rglab1-> Name Virtual Machine vm1-> S
 Ensure same region and zone are used-> Create VM2 Ubuntu Server in Microsoft Azure following the same steps as creating vm1-> Use same Resource Group-> Name vm2-> Select Ubuntu Server 24.04 LTS x64 Gen2 for image-> Select password under Authentication Type and use same name and password as VM1-> Scroll to bottom and click next twice-> In networking ensure vm1-vnet is selected for virtual network-> Click review and create->Once validation has passed click create 
 </p>
 <br />
+<br />
+
+
+![image](https://github.com/user-attachments/assets/c5f3df4e-ab14-4ee2-8df3-96279bd22783)
+
+Click on your Virutal Machine (vm1) so that you can see the Public IP Address-> In Windows open Remote Desktop Connection-> Type in Public IP address and credentials and click connect
+
+<br />
+<br />
+
+![4](https://github.com/user-attachments/assets/22c95e6f-571f-4375-be85-f8343a2f44fb)
+
+Open up a web browser in vm1-> Go to url www.wiresharkorg/download.html-> Click and download Windows x64 Installer-> Install Wireshark with preslected settings-> Open application wireshark
+
+<br />
+<br />
+
+![5](https://github.com/user-attachments/assets/ebc41baf-4817-4886-a6b6-6214bdbc3b83)
+
+Click first button bellow the files menu to start monitoring traffic
+
+
+<br >
+<br />
 
 ![ping1](https://github.com/user-attachments/assets/105b3899-00cc-4733-8727-1b42bfafb42d)
 
 
 <p>
-Use wireshark to monitor traffic.
+Open start menu and type Windows Power Shell-> Click run as Administrator-> Type ping wwww.google.com in Windows Power Shell
 </p>
+<br />
 <br />
 
 ![image](https://github.com/user-attachments/assets/ff6dadc6-2376-4ce5-ab4e-c91d66380c32)
