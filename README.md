@@ -105,10 +105,37 @@ In Virtual Machine (vm1) type icmp for filter in Wireshark-> Set perpetual ping 
 <br />
 <br />
 
+![6](https://github.com/user-attachments/assets/c683723a-5316-4dd3-91e8-84e90014a8d5)
+
+![7](https://github.com/user-attachments/assets/f1ce03a7-5488-41d6-bbdc-ec9993a288b8)
+
+![8](https://github.com/user-attachments/assets/35ad835a-6975-4cab-a573-59425b02a4e4)
+
+In Microsoft Azure search Network Security Group and click on it-> Select VM2, Settings, Inbound Security Rules-> Click Add and set rule to Protocol (ICMPv4), priority 200, and click add
+
+<br />
+<br />
+
+
 
 ![image](https://github.com/user-attachments/assets/ff6dadc6-2376-4ce5-ab4e-c91d66380c32)
 
-<p>
-Block inbound traffic for ICMP v4 and view traffic change with Powershell. 
-</p>
+View perpetual ping time out in Virtual Machine (vm1) in Powershark and Windows Power Shell
+
 <br />
+<br />
+
+![13](https://github.com/user-attachments/assets/f7df538f-c1a6-4958-9ef2-9fcbc3c202c3)
+
+
+Go back to Microsoft Azure Network Security Group and delete the rule by clicking the garbage can on the far right of the rule. 
+
+<br />
+<br />
+
+![14](https://github.com/user-attachments/assets/4c4ca60d-8ae1-415f-abae-d03598152f74)
+
+
+View perpetual ping resume in Powershark and Windows Power Shell.
+
+**Note to stop perpetual ping with Windows Power Shell selected click Control + C**
