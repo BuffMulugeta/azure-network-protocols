@@ -30,17 +30,30 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
+![1](https://github.com/user-attachments/assets/440b44ba-85a4-4d30-9dd7-5dbb9d90a5b4)
+
+Create a Virtual Machine and Resource group in Microsoft Azure
+Type Virtual Machine in search bar->click Virtual Machine->click create and select Azure Virtual Machine
+
+<br />
+<br />
+
+
+![image](https://github.com/user-attachments/assets/883aacc6-cb48-4e8c-9d74-02dc1e30695d)
+
+
+
 ![image](https://github.com/user-attachments/assets/198a231c-66ca-49b5-a303-7fa525feaf8a)
 
 <p>
-Create VM1 Windows 10 in Microsoft Azure
+Click create new under Resource Group Name Rglab1-> Name Virtual Machine vm1-> Select  Windows 10 Pro, version 22h2-Gen 2 for image=> Select E2 v3 (2 vcpus, 16 GiB memory for size-> Set Administrator name and password-> Scroll to bottom and confirm licensing -> Click review and create-> Once validation has passed click create
 </p>
 <br />
 
 ![vm2](https://github.com/user-attachments/assets/2d32d0c3-21be-4ad8-a26d-68bc2e016fc0)
 
 <p>
-Create VM2 Ubuntu Server in Microsoft Azure
+Ensure same region and zone are used-> Create VM2 Ubuntu Server in Microsoft Azure following the same steps as creating vm1-> Use same Resource Group-> Name vm2-> Select Ubuntu Server 24.04 LTS x64 Gen2 for image-> Select password under Authentication Type and use same name and password as VM1-> Scroll to bottom and click next twice-> In networking ensure vm1-vnet is selected for virtual network-> Click review and create->Once validation has passed click create 
 </p>
 <br />
 
