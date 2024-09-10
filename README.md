@@ -25,7 +25,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Step 1 Create a Windows 10 Virtual Machine (VM) with 2 Virtual CPUs and allow it to create a new Virtual Network (Vnet)
 - Step 2 Create a Ubuntu Server Virtual Machine (VM) with 2 Virtual CPUs and have it use the Virtual Network from the Windows 10 Virtual Machine (VM) 
-- Step 3 Remote into Windows 10 Virtual Machine, install wireshark, and observer various traffic while performing commands with Windows Powershell
+- Step 3 Remote into Windows 10 Virtual Machine, install Wireshark, and observe various traffic while performing commands with Windows Powershell
 - Step 4 Set a perpetual ping with Windows Powershell for the Ubuntu Server, then block icmp v4 with Microsoft Azure Network Security Group and observe traffic changes 
 
 <h2>Actions and Observations</h2>
@@ -61,21 +61,21 @@ Ensure same region and zone are used-> Create VM2 Ubuntu Server in Microsoft Azu
 
 ![image](https://github.com/user-attachments/assets/c5f3df4e-ab14-4ee2-8df3-96279bd22783)
 
-Click on your Virutal Machine (vm1) so that you can see the Public IP Address-> In Windows open Remote Desktop Connection-> Type in Public IP address and credentials and click connect
+Click on your Virtual Machine (vm1) so that you can see the Public IP Address-> In Windows open Remote Desktop Connection-> Type in Public IP address and credentials and click connect
 
 <br />
 <br />
 
 ![4](https://github.com/user-attachments/assets/22c95e6f-571f-4375-be85-f8343a2f44fb)
 
-Open up a web browser in vm1-> Go to url www.wiresharkorg/download.html-> Click and download Windows x64 Installer-> Install Wireshark with preslected settings-> Open application wireshark
+Open up a web browser in vm1-> Go to url www.wiresharkorg/download.html-> Click and download Windows x64 Installer-> Install Wireshark with preselected settings-> Open application Wireshark
 
 <br />
 <br />
 
 ![5](https://github.com/user-attachments/assets/ebc41baf-4817-4886-a6b6-6214bdbc3b83)
 
-Click first button bellow the files menu to start monitoring traffic
+Click first button below the files menu to start monitoring traffic
 
 
 <br >
@@ -100,7 +100,7 @@ In Microsoft Azure click on vm2-> copy Private IP address
 
 ![11](https://github.com/user-attachments/assets/8ffd965a-f4ac-4754-82f7-ecff99b4004b)
 
-In Virtual Machine (vm1) type icmp for filter in Wireshark-> Set perpetual ping by typing ping the private IP Address -t in Windows Powershell
+In Virtual Machine (vm1) type icmp for the filter in Wireshark-> Set perpetual ping by typing ping the private IP Address -t in Windows Powershell
 
 <br />
 <br />
@@ -120,7 +120,7 @@ In Microsoft Azure search Network Security Group and click on it-> Select VM2, S
 
 ![image](https://github.com/user-attachments/assets/ff6dadc6-2376-4ce5-ab4e-c91d66380c32)
 
-View perpetual ping time out in Virtual Machine (vm1) in Powershark and Windows Power Shell
+View perpetual ping time out in Virtual Machine (vm1) in Wireshark and Windows Power Shell
 
 <br />
 <br />
@@ -136,6 +136,6 @@ Go back to Microsoft Azure Network Security Group and delete the rule by clickin
 ![14](https://github.com/user-attachments/assets/4c4ca60d-8ae1-415f-abae-d03598152f74)
 
 
-View perpetual ping resume in Powershark and Windows Power Shell.
+View perpetual ping resume in Wireshark and Windows Power Shell.
 
 **Note to stop perpetual ping with Windows Power Shell selected click Control + C**
